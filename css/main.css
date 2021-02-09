@@ -1,0 +1,651 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: black;
+}
+
+
+#main-books {
+
+}
+
+
+#books1 { 
+
+}
+
+/* .card-group { */
+  /* display: flex; */
+/* } */
+
+/* .card { */
+  /* background: green; */
+/* } */
+
+@media screen and (max-width: 576px) {
+  .carousel-control-next {
+    display: none;
+  }
+}
+
+
+@media screen and (max-width: 576px) {
+  .carousel-control-prev {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .btn-primary {
+    flex-wrap: wrap;
+    display: none;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .nav-link {
+    background: black;
+    border-color: green;
+  
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .list-group{
+    display: none
+  }
+}
+
+
+@media screen and (max-width: 576px) {
+  .sidemenugenre {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 576px) {
+   .nav-item {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .nav-item {
+   text-align: center;
+ }
+}
+
+
+.navbar {
+  border-bottom: green solid 2px; 
+  height: 75px;
+  background-color: black;
+  /* opacity: 0.7; */
+ }
+
+#tops {
+  background: green;
+}
+
+#mainnav .navbar-brand {
+  color: green;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-weight: 200;
+  font-size: 24px;
+  word-spacing: 5px;
+}
+
+#mainnav .navbar-brand:hover {
+  color: rgb(112, 19, 200);
+}
+
+.img-fluid {
+  padding-top: 16px;
+  padding-bottom: 8px;
+}
+
+/* Flexbox */
+.row { 
+  display: flex
+}
+
+.newarrivals {
+  text-decoration: underline;
+  color: green;
+  margin-top: 1em;
+  margin-bottom: .5em;
+ 
+}
+
+.bestsellers {
+  text-decoration: underline;
+  color: green;
+  margin-top: 1em;
+  margin-bottom: .5em;
+}
+
+.legends {
+  text-decoration: underline;
+  color: green;
+  margin-top: 1em;
+  margin-bottom: .5em;
+}
+
+.editorspicks {
+  text-decoration: underline;
+  color: green;
+  margin-top: 1em;
+  margin-bottom: .5em;
+}
+
+#monthpick {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+#monthpick h3 {
+  text-decoration: underline;
+}
+
+#monthpick h4 {
+  margin-bottom: 1em;
+}
+
+#browseheader {
+  background: green;
+  /* background: url('../img/hpbg.jpg')center/cover fixed no-repeat; */
+}
+
+#browseheader h1 { 
+  text-decoration: underline;
+}
+
+#browseheader .btn {
+  background: black;
+}
+
+#info-section h2 {
+  margin-top : 2em;
+  text-decoration: underline;
+}
+
+
+#sidenavbar ul li{
+  margin-top: 1em;
+  border-right: solid 2px black;
+}
+
+.title-page {
+  text-decoration: underline;
+  color: green;
+}
+
+#genre1 {
+  text-decoration: underline;
+  color: green;
+}
+
+#genre2 {
+  text-decoration: underline;
+  color: black;
+}
+/*.navbar { 
+  background: transparent !important;
+  z-index: 99;
+  position: fixed; opacity /* helps set the transparecy 
+  font-weight: bold;
+} */
+
+.form-control {
+  border-radius:;
+}
+
+.amlit {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: black;
+  word-spacing: 10px;
+}
+
+.amlit:hover {
+  color: #ffa500;
+}
+
+#browseheader .vibrate {
+
+}
+
+.card-img-top {
+  height: 200px;
+  width: 200px;
+}
+
+#productinfo .page-link {
+  background: green;
+  color: orangered;
+}
+
+.height {
+  min-height: 100vh 
+}
+
+.gallery {
+  background: #EEE;
+}
+
+.gallery-cell {
+  width: 28%;
+  height: 200px;
+  margin-right: 10px;
+  background: #8C8;
+  counter-increment: gallery-cell;
+}
+
+.gallery-cell.is-selected {
+  background: #ED2;
+}
+
+/* cell number */
+.gallery-cell:before {
+  display: block;
+  text-align: center;
+  content: counter(gallery-cell);
+  line-height: 200px;
+  font-size: 80px;
+  color: white;
+}
+
+
+#pick .month {
+  background-color: rgba(255, 208, 0, 0.897);
+}
+
+#pick .months {
+  background-color: green;
+}
+/* Question */
+
+.question {
+  /* Photo by Bram Van Oost on Unsplash */
+  background: url('../img/books.jpg')center/cover fixed no-repeat;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+
+.question-grey {
+  background: rgba(79,109,122,0.75);
+}
+
+.question-green {
+    background: rgba(0,128,0, 0.75);
+}
+
+.question-yellow {
+  background: rgba(227,181,5,0.75);
+}
+
+.question-icon {
+  font-size: 4rem;
+  color: var(--mainBlue);
+  transition: all 0.5s ease-in-out;
+}
+
+.question-icon:hover {
+transform: translateY(-10%);
+color: var(--mainBlue);
+}
+
+.question-info {
+  color:var(--mainWhite);
+}
+
+.img-big-wrap {
+    background-image: url("../img/images (3).jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+
+.nav-link1 {
+ margin-left: 25px;
+ padding-left: 25px;
+}
+
+.dropdown-item:hover {
+  background: gold;
+}
+
+.list-group {
+color: green;
+}
+
+.menus {
+  color: green;
+}
+.nav-link {
+  list-style: none;
+  background: black;
+  border-color: green;
+  text-decoration:;
+}
+
+.nav-link:hover {
+  color: greenyellow;
+}
+
+.sidemenugenre {
+  text-decoration: underline;
+  color: greenyellow;
+}
+
+header .home {
+  color: green;
+}
+
+.page-link  {
+  background-color: black;
+  border-color: green;
+  color: gold;
+}
+
+.page-link:hover {
+  color: yellow;
+  background-color: orange;
+}
+
+.page-link  {
+  border: none;
+}
+
+.title {
+  color: slategrey ;
+}
+
+.info {
+  text-decoration: underline;
+}
+
+.skill-text {
+  margin-bottom: 25px;
+  padding-bottom: 25px;
+}
+
+h5 {
+color: tan;
+}
+
+.footer-icon {
+  color: black;
+}
+
+#pick .monthpick{
+  text-decoration: underline;
+}
+
+
+/*Contact*/
+
+.height-60 {
+  min-height: 60vh;
+}
+
+#contact .card {
+  margin-top: 37px;
+  background: rgba(0, 0, 0, 0.5);
+  transition: all 2s ease;
+}
+
+#contact .card:hover {
+  background: rgba(0, 0, 0, 0.8);
+}
+
+#contact .card-header {
+  color: green;
+}
+
+#contact .input-group-text {
+  background: green;
+  border-color: green;
+  color: #242424;
+}
+
+#contact .card input {
+  color: #606060;
+}
+
+#contact .card input::placeholder {
+  color: #606060;
+}
+
+#contact .contactinfo {
+  text-decoration: underline;
+}
+
+.contact-btn {
+  color: yellow;
+  border-color: green;
+  background: transparent;
+  transition: all 2s ease-in-out;
+  
+}
+
+.contact-btn:hover {
+  background: yellow;
+  color: green;
+  border-color: #C9C1AC;
+}
+
+#newslider .carousel-control-prev {
+  top: 50%;
+  bottom: 50%;
+}
+
+#newslider .carousel-control-next {
+  top: 50%;
+  bottom: 50%;
+}
+
+  
+#bestslider .carousel-control-prev {
+  top: 50%;
+  bottom: 50%;
+}
+
+#bestslider .carousel-control-next {
+  top: 50%;
+  bottom: 50%;
+}
+
+  
+#legendslider .carousel-control-prev {
+  top: 50%;
+  bottom: 50%;
+}
+
+#legendslider .carousel-control-next {
+  top: 50%;
+  bottom: 50%;
+}
+
+  
+#editorslider .carousel-control-prev {
+  top: 50%;
+  bottom: 50%;
+}
+
+#editorslider .carousel-control-next {
+  top: 50%;
+  bottom: 50%;
+}
+
+
+#culturalslider .carousel-control-prev {
+  top: 50%;
+  bottom: 50%;
+}
+
+#culturalslider .carousel-control-next {
+  top: 50%;
+  bottom: 50%;
+}
+
+#socialslider .carousel-control-prev {
+  top: 50%;
+  bottom: 50%;
+}
+
+#socialslider .carousel-control-next {
+  top: 50%;
+  bottom: 50%;
+}
+
+#bioslider .carousel-control-prev {
+  top: 50%;
+  bottom: 50%;
+}
+
+#bioslider .carousel-control-next {
+  top: 50%;
+  bottom: 50%;
+}
+
+#relislider .carousel-control-prev {
+  top: 50%;
+  bottom: 50%;
+}
+
+#relilider .carousel-control-next {
+  top: 50%;
+  bottom: 50%;
+}
+
+#psyslider .carousel-control-prev {
+  top: 50%;
+  bottom: 50%;
+}
+
+#psyslider .carousel-control-next {
+  top: 50%;
+  bottom: 50%;
+}
+
+#businessslider .carousel-control-prev {
+  top: 50%;
+  bottom: 50%;
+}
+
+#businessslider .carousel-control-next {
+  top: 50%;
+  bottom: 50%;
+}
+
+#artsslider .carousel-control-prev {
+  top: 50%;
+  bottom: 50%;
+}
+
+#artsslider .carousel-control-next {
+  top: 50%;
+  bottom: 50%;
+}
+
+#interslider .carousel-control-prev {
+  top: 50%;
+  bottom: 50%;
+}
+
+#interslider .carousel-control-next {
+  top: 50%;
+  bottom: 50%;
+}
+
+#teachslider .carousel-control-prev {
+  top: 50%;
+  bottom: 50%;
+}
+
+#teachslider .carousel-control-next {
+  top: 50%;
+  bottom: 50%;
+}
+
+#novelslider .carousel-control-prev {
+  top: 50%;
+  bottom: 50%;
+}
+
+#novelslider .carousel-control-next {
+  top: 50%;
+  bottom: 50%;
+}
+
+#poetryslider .carousel-control-prev {
+  top: 50%;
+  bottom: 50%;
+}
+
+#poetryslider .carousel-control-next {
+  top: 50%;
+  bottom: 50%;
+}
+
+#culinaryslider .carousel-control-prev {
+  top: 50%;
+  bottom: 50%;
+}
+
+#culinaryslider .carousel-control-next {
+  top: 50%;
+  bottom: 50%;
+}
+
+#femslider .carousel-control-prev {
+  top: 50%;
+  bottom: 50%;
+}
+
+#femslider .carousel-control-next {
+  top: 50%;
+  bottom: 50%;
+}
+
+#polislider .carousel-control-prev {
+  top: 50%;
+  bottom: 50%;
+}
+
+#polislider .carousel-control-next {
+  top: 50%;
+  bottom: 50%;
+}
+
+#fasslider .carousel-control-prev {
+  top: 50%;
+  bottom: 50%;
+}
+
+#fasslider .carousel-control-next {
+  top: 50%;
+  bottom: 50%;
+}
+
+#teenslider .carousel-control-prev {
+  top: 50%;
+  bottom: 50%;
+}
+
+#teenslider .carousel-control-next {
+  top: 50%;
+  bottom: 50%;
+}
+
+#main-footer {
+  background-color: black;
+  color: yellow;
+}
+
+#main-footer a {
+  color: orangered;
+  text-decoration: underline;
+}
